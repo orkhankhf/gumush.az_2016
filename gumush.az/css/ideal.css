@@ -1,0 +1,691 @@
+/* TOP REGISTER AND SIGN UP START */
+.validate_spans{
+    z-index: 5;
+    text-align: center;
+    display: none;
+    margin: 0px;
+    border-radius: 0px;
+    padding: 4px;
+    border-top: 0px;
+}
+.qeydiyyat_tamamlandi,.sifre_berpa_tamamlandi,.sifre_deyisdirildi{
+	position: fixed;
+	top: 20%;
+	left: 35%;
+	width: 30%;
+	z-index: 1000;
+	text-align: center;
+	display: none;
+}
+.qeydiyyat_tamamlandi strong,.sifre_berpa_tamamlandi strong,.sifre_deyisdirildi strong{
+	font-size: 18px;
+	text-decoration:underline;
+}
+.qeydiyyat_tamamlandi p,.sifre_berpa_tamamlandi p,.sifre_deyisdirildi p{
+	font-size: 15.5px;
+	padding-left: 1px;
+	padding-right: 1px;
+	margin-top: 35px;
+	line-height: 25px;
+}
+.regBackground{
+	width: 100%;
+	height:100%;
+	position: fixed;
+	top:0;
+	left:0;
+	background:	black;
+	opacity: 0.6;
+	display: none;
+	z-index: 10;
+}
+.regForm{
+	width: 50%;
+	left: 25%;
+	display: none;
+	position: absolute;
+	top: 50px;
+	z-index: 11;
+	padding-top: 25px;
+	padding-bottom: 50px;
+	background: #f2f2f2;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.regForm p, .sign_in p,.recovery_password p{
+	text-align: center;
+	margin-bottom: 20px;
+	color: #3f3f45;
+	font-size: 26px;
+}
+.regForm label, .sign_in label,.recovery_password label{
+	color: #3f3f45;
+}
+.sign_in,.recovery_password{
+	width: 40%;
+	left: 30%;
+	display: none;
+	position: absolute;
+	top: 50px;
+	z-index: 11;
+	padding-top: 25px;
+	padding-bottom: 50px;
+	background: #f2f2f2;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#signin,#signup{
+	border:0;
+    color: white;
+    background-color: #ED5258;
+}
+#signin:hover,#signup:hover{
+	background-color: #5cb85c;
+    border-color: #4cae4c;
+} 
+#cancel,#cancel_reg{
+	border:0;
+    color: white;
+    background: #3F3F45;
+}
+#sifremi_unuttum_btn{
+	border:0;
+	color: #3F3F45;
+	padding: 0px;
+	background-color: inherit;
+}
+#sifremi_unuttum_btn:hover{
+	color: #ED5258;
+}
+#sifremi_unuttum_btn:focus{
+	box-shadow: none;
+}
+/*daxil ol formunda submit buttonunda problem oldugundan buttonu span ile elave etmisem*/
+.sign_in_submit_span{
+	border-radius: 0px !important;
+}
+/* TOP REGISTER AND SIGN UP FINISH */
+
+
+
+/* TOP NAVBAR START */
+.my_top_header{
+	border-bottom: 1px solid #ebebeb;
+	position: relative;
+}
+.my_top_header ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+.my_top_header ul li{
+	display: inline-block;
+	border:1px solid #ebebeb;
+}
+.my_top_header ul li:hover a,.my_top_header ul li:hover button{
+	color:white;
+	background: #ED5258;
+}
+.my_top_header ul li a{
+	text-decoration: none;
+	color:#585858;
+	font-size: 11px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+}
+.header_top_right button{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 11px;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+	border:0px;
+	color: #585858;
+	background: white;
+}
+.header_top_left{
+	float: left;
+}
+.header_top_right{
+	float: right;
+}
+
+.header_top_left li{
+	border-right: 1px solid #ebebeb;
+	text-transform: capitalize;
+	display: inline-block;
+}
+.my_top_header ul li:first-child{
+	border-left: 1px solid #ebebeb;
+}
+.my_top_header ul li:last-child{
+	border-right: 1px solid #ebebeb;
+}
+.header_top_left li a{	
+    color: #585858;  
+    transition: all 0.2s ease;
+}
+.header_top_right li{
+	border-right: 1px solid #ebebeb;
+	text-transform: capitalize;
+}
+.header_top_right li:first-child{
+	border-right: 1px solid #ebebeb;
+}
+.header_top_right li a{	
+    color: #585858; 
+    transition: all 0.2s ease;
+}
+
+
+/* TOP NAVBAR END */
+
+/*UNDER SLIDER START*/
+.under_slider_main{
+	margin-top: 20px;
+}
+.firstImg, .secondImg, .thirdImg{
+	height: 284px;
+	background-image: url("../img/braslet.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.secondImg{
+	background-image: url("../img/sirga.jpg");
+}
+.thirdImg{
+	background-image: url("../img/boyunbagi-ana-sehife.jpg");
+}
+.firstImg:hover{
+	box-shadow: 0 0 12px #C4C4C4;
+	z-index: 1;
+}
+.firstImg h2, .secondImg h2, .thirdImg h2{
+	margin-top: 140px;
+	font-size: 25px;
+	color: #3f3f45;
+}
+.firstImg a, .secondImg a, .thirdImg a{
+	display: block;
+}
+.firstImg a button, .secondImg a button, .thirdImg a button{
+	border: 1px solid #D3D3D3;
+    padding: 3.4% 8.1%;
+    text-align: center;
+    text-transform: capitalize;
+    font: 800 1em/1.2em "Tinos", sans-serif;
+    color: #adadad;
+    background: white;
+    letter-spacing: 1.3px;
+}
+.firstImg a button:hover, .secondImg a button:hover, .thirdImg a button:hover{
+	border:0;
+    color: white;
+    background: #3f3f45;
+}
+.secondImg:hover{
+	box-shadow: 0 0 12px #C4C4C4;
+	z-index: 2;
+}
+.thirdImg:hover{
+	box-shadow: 0 0 12px #C4C4C4;
+}
+/*UNDER SLIDER FINISH*/
+
+/* Selling List start */
+.sellList ul .active a{
+	color: white !important;
+	background-color: #ED5258 !important;
+}
+.sellList .tab-pane{
+	padding-top: 15px; 
+}
+.sellList{
+	height: auto;
+}
+#tab_yeniler_satilanlar_on_iyirmi a{
+	color: #3f3f45;
+}
+.sellone{
+	height: 400px;
+	margin-bottom: 25px;
+}
+.sellone:hover{
+	box-shadow: 0 0 12px #C4C4C4;
+}
+.imgBox{
+	height: 240px;
+	border: 1px solid #ebebeb;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.imgBox img{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+    top: 0; 
+    bottom:0; 
+    left: 0; 
+    right:0;
+    margin: auto;
+}
+.sellone h2{
+	font-size: 16px;
+    text-align: center;
+    color: #3f3f45;
+    min-height: 286px;
+}
+.sellone p{
+	font-size: 25px;
+	margin-bottom: 0px;
+}
+.sellone a{
+	text-decoration: none;
+}
+.sellone a button{
+	border: 0;
+    padding: 4.8% 2.1%;
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font: 200 1em/1.2em "Tinos", sans-serif;
+    color: white;
+    letter-spacing: 1.1px;
+}
+.add_a_btn button{
+	background: #ED5258;
+}
+.add_a_btn button:hover{
+	border:0;
+}
+.more_a_btn button{
+	background: #3f3f45;
+}
+.more_a_btn button:hover{
+	background: #3f3f45;
+}
+
+/* Selling List end */
+
+
+/* TOP FOOTER START */
+.contactUs{
+	margin-top: 40px;
+}
+.contactUs h3{
+	font-size: 20px;
+	line-height: 31px;
+}
+.contactUs p{
+	font-size: 15.3px;
+}
+.contactFace{
+	height: 440px;
+	border:1px solid #ebebeb;
+}
+.contactFace h3{
+	text-align: center;
+}
+.fb_iframe_widget{
+	left: 10%;
+}
+.freeDelivery{
+	height: 440px;
+	border: 1px solid #ebebeb;
+	border-left: none;
+	border-right: none;
+}
+.my_box{
+	padding-left: 20px;
+	margin-top: 25px;
+}
+.freeDelivery div:nth-child(1),.customBlock div:nth-child(1){
+	margin-top: 0px;
+}
+.my_box div:before{
+	font-family: FontAwesome;
+	font-size: 47px;
+	position: relative;
+	right: 10px;
+	top: 8px;
+	color: #ED5258;
+}
+.my_truck:before{
+	content: "\f0d1";
+}
+.qapida_odeme:before{
+	content: "\f015";
+	font-size: 52.5px !important;
+}
+.SSL_icon:before{
+	content: "\f023";
+	font-size: 62.5px !important;
+	right: 6px !important;
+}
+.customBlock{
+	height: 440px;
+	border: 1px solid #ebebeb;
+}
+.allSection div{
+	padding-left: 0px;
+}
+.thirdSection{
+	margin-top: 45px;
+}
+.cover_footer_top{
+	height: 75px;
+	position: absolute;
+	z-index: 1;
+}
+.thirdSection h3{
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+.leftSection span{
+	font-weight: bold;
+}
+.thirdSection ul{
+	padding-left: 0px;
+}
+.rightSection ul{
+	padding-left: 12px;
+}
+.thirdSection ul li{
+	list-style-type: none;
+	padding-bottom: 10px;
+}
+.thirdSection ul li a{
+	transition: all .1s ease-in;
+	text-decoration: none;
+	color: #7d7d7d;
+}
+.thirdSection ul li a:hover{
+	color: #484848;
+}
+.thirdSection_sosials{
+	font-size: 30px;
+    position: relative;
+    top: 6px;
+    right: 10px;
+    color: #ED5258;
+}
+/* TOP FOOTER FINISH */
+
+
+
+/* FOOTER START */
+footer{
+	margin-bottom: 50px;
+}
+.footer p{
+	margin-top: 40px;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.footer p a{
+	text-decoration: none;
+	color:black;
+}
+.webmaster{
+	color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+.webmaster:hover{
+	text-decoration: none;
+}
+/* FOOTER FINISH */
+
+
+
+
+
+
+
+@media(max-width: 1200px){
+	.my_box div:before{
+	right: 25px !important;
+}
+.SSL_icon:before{
+	left: -21px !important;
+}
+.contactFace,.freeDelivery,.customBlock{
+	height: 520px;
+}
+.fb_iframe_widget{
+	left: 2%;
+}
+}
+
+
+
+
+
+@media (max-width: 992px){
+	.firstImg, .secondImg, .thirdImg{
+	height: 200px;
+}
+	.firstImg h2, .secondImg h2, .thirdImg h2{
+	margin-top: 80px;
+	font-size: 20px;
+}
+	.firstImg a button, .secondImg a button, .thirdImg a button{
+	padding: 3% 4%;
+}
+.freeDelivery{
+	border: 1px solid #ebebeb;
+	border-bottom: none;
+}
+.freeDelivery,.customBlock{
+	height: 360px;
+}
+.contactFace{
+	height: 445px;
+	border: 1px solid #ebebeb;
+	border-bottom: none;
+}
+.contactFace h3{
+	text-align: left;
+}
+.fb_iframe_widget{
+	left: 0%;
+}
+.customBlock{
+	height: 180px;
+}
+.SSL_icon:before{
+	left: 4px !important;
+}
+.sellone a button{
+    padding: 2.2% 2.1%;
+}
+.cover_footer_top{
+	display: none;
+}
+.leftSection h3:after,.middleSection h3:after,.rightSection h3:after{
+	content: "+";
+	font-size: 20px;
+	width: 20px;
+	height: 20px;
+	background: #3f3f45;
+	border-radius: 50%;
+	color:white;
+	float: right;
+	text-align: center;
+	line-height: 20px;
+	position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.thirdSection ul{
+	display: none;
+}
+.my_box div:before {
+    right: 0px !important;
+}
+.qeydiyyat_tamamlandi,.sifre_berpa_tamamlandi,.sifre_deyisdirildi{
+	left: 30%;
+	width: 40%;
+}
+}
+@media (max-width: 768px){
+	.sellList ul li a{
+		font-size: 13px;
+		padding-left: 6px !important;
+		padding-right: 6px !important;
+	}
+	.firstImg, .secondImg, .thirdImg{
+	height: 500px;
+}
+	.firstImg{
+	background-image: url("../img/braslet-xs.jpg");
+}
+	.secondImg{
+	background-image: url("../img/sirga-xs.png");
+}
+	.thirdImg{
+	background-image: url("../img/boyunbagi-ana-sehife-xs.jpg");
+}
+	.firstImg h2, .secondImg h2, .thirdImg h2{
+	margin-top: 120px;
+	margin-left: 70px;
+	font-size: 33px;
+}
+	.firstImg a button, .secondImg a button, .thirdImg a button{
+	padding: 3% 4%;
+	margin-left: 70px;
+	margin-top: 30px;
+}
+	.firstImg a button:hover, .secondImg a button:hover, .thirdImg a button:hover{
+	border:0;
+}
+	.freeDelivery{
+	border: 1px solid #ebebeb;
+	border-bottom: none;
+}
+	.freeDelivery,.customBlock{
+	height: 360px;
+}
+	.customBlock{
+	height: 180px;
+}
+	.contactFace{
+	height: 445px;
+	border: 1px solid #ebebeb;
+	border-bottom: none;
+}
+	.sellone a button{
+    padding: 2.4% 2.1%;
+}
+	.sellone h2{
+	min-height: 278px;
+}
+	.regForm{
+	width: 50%;
+	left: 50%;
+	top: 10px;
+	margin-left: -25%;
+}
+	.regForm p,.sign_in p,.recovery_password p{
+	font-size: 20px;
+	margin-top: 10px;
+}
+	#signin,#signup{
+	margin-bottom: 15px;
+}
+	#signin,#cancel,#signup,#cancel_reg{
+	width: 100%;
+}
+	.thirdSection h3{
+	font-size: 18px;
+}
+	.qeydiyyat_tamamlandi,.sifre_berpa_tamamlandi,.sifre_deyisdirildi{
+	left: 15%;
+	width: 70%;
+}
+	.qeydiyyat_tamamlandi p,.sifre_berpa_tamamlandi p,.sifre_deyisdirildi p{
+	margin-top: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+/*BU HISSENI DEYISME!!!*//*BU HISSENI DEYISME!!!*/
+@media(max-width: 542px){
+	.contactFace,.freeDelivery,.customBlock{
+		min-height: 440px !important;
+		height: auto !important;
+		border-top: 0px;
+		border-bottom: 0px;
+	}
+	.customBlock{
+		margin-top: 25px;
+		min-height: 280px !important;
+		height: auto !important;
+	}
+}
+@media(max-width: 500px){
+	.sign_in,.recovery_password{
+		width: 60%;
+		left: 20%;
+		top: 20px;
+		padding-top: 0px;
+		padding-bottom: 15px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.regForm{
+		width: 60%;
+	    left: 20%;
+	    top: 20px;
+	    margin-left: 0%;
+	    padding-top: 0px;
+		padding-bottom: 15px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.firstImg{
+		height: 300px;
+		background-image: url("../img/braslet-500.jpg");
+	}
+	.secondImg{
+		height: 300px;
+	}
+	.thirdImg{
+		height: 300px;
+	}
+	.firstImg h2,.secondImg h2,.thirdImg h2{
+		margin-top: 40px;
+		margin-left: 10px;
+	}
+	.firstImg a button,.secondImg a button,.thirdImg a button{
+		padding: 5% 7%;
+	    margin-left: 10px;
+	    margin-top: 60px;
+	}
+	.my_box div:before {
+	    right: 20px !important;
+	}
+	.SSL_icon:before{
+		left: -16px !important;
+	}
+}
+@media(min-width: 992px){
+.leftSection ul,.middleSection ul,.rightSection ul{	
+	display: block !important;
+}
+}
+/*BU HISSENI DEYISME!!!*//*BU HISSENI DEYISME!!!*/

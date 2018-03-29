@@ -1,0 +1,196 @@
+.filter_main{
+
+}
+.goster,.filterTop{
+  background-color: #3f3f45;
+  border-top: 5px solid #ED5258;
+  padding: 15px 15px;
+  font-weight: bolder;
+  font-size: 17px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+.filter_headers{
+  font-weight: bold;
+  margin-top: 10px;
+  float: left;
+}
+.filter_divs{
+  border-bottom: 1px solid #D3D3D3;
+  padding-bottom: 5px;
+}
+.filter_divs .fa-plus{
+  font-size: 12px;
+}
+.toggle_kateqoriya,.toggle_qiymet,.toggle_olcu,.toggle_ceki,.toggle_cins,.toggle_age_grupu{
+  display: none !important;
+}
+.kateqoriya a,.qiymet p,.olcu p,.ceki p,.cins p,.age_grupu p{
+  display: block;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #3f3f45;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 0px;
+  margin-bottom: 1px;
+  cursor: pointer;
+  -o-transition:background-color 0.3s,padding-left 0.3s,color 0.3s;
+  -webkit-transition:background-color 0.3s,padding-left 0.3s,color 0.3s;
+  transition: background-color 0.3s,padding-left 0.3s,color 0.3s;
+}
+.kateqoriya a:hover,.qiymet p:hover,.olcu p:hover,.ceki p:hover,.cins p:hover,.age_grupu p:hover{
+  padding-left: 10px;
+  background-color: #ED5258;
+  color: white;
+  text-decoration: none;
+}
+.selected_filter:before{
+  font-family: "FontAwesome";
+  content: "\f14a";
+  position: absolute;
+  left: 0;
+  font-size: 16px;
+  color: #ED5258;
+}
+.olcu .fa-minus{
+  font-size: 13px;
+}
+
+
+
+
+
+
+.filterTop_main_div,.filterTop_main_div div{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.filterTop{
+  margin-top: 50px;
+  float: left;
+  width: 100%;
+}
+.filterTop_main_div a{
+  color: #3f3f45;
+}
+.filterTop_imgbox{
+  border-bottom: 1px solid #D3D3D3;
+  padding-bottom: 5px;
+  margin-top: 15px !important;
+}
+.filterTop_imgbox img{
+  width: 125px;
+  border: 1px solid #ebebeb;
+}
+.filterTop_imgbox h2{
+  height: 108px;
+  font-size: 14px;
+  margin: 0;
+}
+.filterTop_imgbox p{
+  margin:0;
+  color: #3f3f45;
+}
+.filterTop_imgbox:hover{
+  color: #ED5258;
+}
+
+@media(max-width: 1200px){
+.filterTop_imgbox img{
+  width: 100px;
+  margin-bottom: 5px;
+}
+.filterTop_imgbox h2{
+  height: 85px;
+}
+}
+@media(max-width: 992px){
+  .filter_divs .fa-plus{
+    font-size: 11px;
+}
+  .kateqoriya a,.qiymet p,.olcu p,.ceki p,.cins p,.age_grupu p{
+    font-size: 13.1px;
+}
+.kateqoriya a:hover,.qiymet p:hover,.olcu p:hover,.ceki p:hover,.cins p:hover,.age_grupu p:hover{
+    padding-left: 8px;
+}
+.filterTop_imgbox img{
+  width: 157px;
+  margin-bottom: 5px;
+}
+.filterTop_imgbox h2{
+  height: 60px;
+}
+}
+
+
+@media(max-width: 768px){
+  .filter_divs{
+    display: none;
+    overflow: hidden;
+  }
+  .filter_headers{
+    width: 100%;
+  }
+  .toggle_kateqoriya,.toggle_qiymet,.toggle_olcu,.toggle_ceki,.toggle_cins,.toggle_age_grupu{
+    display: inline-block !important;
+    float: right;
+    font-size: 20px !important;
+  }
+  .kicik_ekran{
+    display: block;
+  }
+  .boyuk_ekran{
+    display: none;
+  }
+  .filterTop_imgbox img{
+    width: 80%;
+    margin-bottom: 5px;
+    margin-left: 10%;
+  }
+  .filterTop_imgbox h2{
+    text-align: center;
+    min-height: 70px;
+    font-size: 13px;
+  }
+  .en_cox_satilanlar_xs_image_div,.en_yeniler_xs_image_div{
+    min-height: 180px !important;
+  }
+}
+
+
+@media(min-width: 768px){
+  .filter_divs{
+    display: block !important;
+  }
+  .kicik_ekran{
+    display: none;
+  }
+  .boyuk_ekran{
+    display: block;
+  }
+}
+/*en_cox_satilanlar_xs_image_div ve en_yeniler_xs_image_div klasi, kicik (xs) ekranlarda top sells divinin standart olmasi yeni bir birleri ile eyni sirada qalmasi ucun birinin hundur birinin alcaq olmamasi ucun verilmisdir.*/
+@media(max-width: 700px){
+  .en_cox_satilanlar_xs_image_div,.en_yeniler_xs_image_div{
+    min-height: 170px !important;
+  }
+}
+@media(max-width: 600px){
+  .en_cox_satilanlar_xs_image_div,.en_yeniler_xs_image_div{
+    min-height: 140px !important;
+  }
+}
+@media(max-width: 550px){
+  .en_cox_satilanlar_xs_image_div,.en_yeniler_xs_image_div{
+    min-height: 130px !important;
+  }
+}
+@media(max-width: 450px){
+  .en_cox_satilanlar_xs_image_div,.en_yeniler_xs_image_div{
+    min-height: 100px !important;
+  }
+}

@@ -1,0 +1,106 @@
+.contact_main{
+	padding: 15px;
+}
+.contact_h2_div{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.contact_h2_div p{
+	background-color: #3f3f45;
+    border-top: 5px solid #ED5258;
+    padding: 15px 15px;
+    font-weight: bolder;
+    font-size: 17px;
+    text-align: center;
+    width: 25% !important;
+    color: white;
+    text-transform: uppercase;
+}
+.contact_main div{
+	float: left !important;
+	padding-right: 0;
+}
+.contact_main div:nth-child(2){
+	padding-right: 0;
+}
+.contact_main label{
+	margin-bottom: 5px;
+	width: 100%;
+	color: #3f3f45;
+}
+.contact_main input{
+	width: 100%;
+}
+.contact_main button{
+	background-color: #ED5258;
+	border: 1px solid #ED5258;
+	padding: 8px 40px;
+}
+.contact_main button:focus{
+	border-color: #5cb85c !important;
+}
+.contact_main textarea{
+	padding: 6px 12px; 
+	width: 100%;
+	height: 240px;
+	resize: none !important;
+	border:1px solid #D3D3D3;
+}
+.muraciet_span{
+	position: absolute;
+}
+.elaqe_form_btn_div{
+	padding: 0px !important;
+}
+.muraciet_gonderildi,.muraciet_gonderilmedi{
+	position: fixed;
+	top: 25%;
+	left: 35%;
+	width: 30%;
+	z-index: 1000;
+	text-align: center;
+	display: none;
+}
+.muraciet_gonderildi strong,.muraciet_gonderilmedi strong{
+	font-size: 18px;
+	text-decoration:underline;
+}
+.muraciet_gonderildi p,.muraciet_gonderilmedi strong{
+	font-size: 15.5px;
+	padding-left: 1px;
+	padding-right: 1px;
+	margin-top: 35px;
+	line-height: 25px;
+}
+.elaqe_muraciet_span{
+	position: absolute;
+}
+@media(max-width: 992px){
+.contact_main div:nth-child(3){
+	padding: 0px;
+}
+.contact_h2_div p{
+	width: 100% !important;
+}
+.muraciet_gonderildi,.muraciet_gonderilmedi{
+	top: 20%;
+	left: 30%;
+	width: 40%;
+}
+}
+@media(max-width: 768px){
+.contact_h2_div p{
+	font-size: 17px;
+}
+.elaqe_form_btn_div{
+	margin-top: 50px;
+}
+.muraciet_gonderildi,.muraciet_gonderilmedi{
+	left: 15%;
+	width: 70%;
+}
+.muraciet_gonderildi p,.muraciet_gonderilmedi p{
+	margin-top: 20px;
+}
+}
+/* medialarinida  bunun icine yaz*/

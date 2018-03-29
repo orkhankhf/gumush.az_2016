@@ -1,0 +1,1 @@
+[08-Dec-2016 10:28:58 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home2/orxans/public_html/gumush.az/komplekt/komplekt_db.php on line 76

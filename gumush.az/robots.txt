@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /aktivasiya/
+Disallow: /bakuweb/
+Disallow: /bootstrap/
+Disallow: /cgi-bin/
+Disallow: /css/
+Disallow: /db-bakuweb/
+Disallow: /js/
+Disallow: /password_recovery/
+Disallow: /register_bw/
+Disallow: /sign_in_bw/
+Disallow: /slider/
+Disallow: /exit.php/
